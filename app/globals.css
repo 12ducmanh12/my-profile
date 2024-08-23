@@ -3,5 +3,28 @@
 @tailwind utilities;
 body {
     color: white;
-    font-family: Georgia, serif;
+    font-family: sans-serif;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+:root {
+    --main: #34d399;
+    --submain: #115e59;
+}
+
+h1 {
+    font-size: larger;
+}
+
+h3 {
+    font-size: 32px !important;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 28px !important;
+    font-weight: 600;
 }
